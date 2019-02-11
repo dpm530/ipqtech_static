@@ -5,13 +5,9 @@
    padding-left: 0px;
    padding-right: 0px;
 }
-body #header nav{
-   background-color: rgba(0, 0, 0, 0)!important;
+#header .fixed-top{
+   transition: all 0.3s;
 }
-/* #header nav img{
-   width:50px;
-   height:50px;
-} */
 #header nav.navbar a{
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
@@ -20,9 +16,11 @@ body #header nav{
 }
 #header_carousel h3{
    font-family: 'Montserrat', sans-serif;
+   font-size: 55px;
 }
 #header_carousel p{
    font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
 }
 #header_carousel img{
    width:100%;
@@ -42,6 +40,8 @@ body #header nav{
    left: 0;
    bottom: 0;
 }
+
+
 
 /*---------------------------------------
    | Services |
@@ -220,23 +220,38 @@ body #header nav{
    padding-top: 15px;
    padding-bottom: 15px;
 }
-#card_footer_left a{
+#card_footer_left .btn{
    font-family: 'Montserrat', sans-serif;
    color:#033266;
    border-color:#033266;
    font-size: 20px;
+   transition: background-color 2s, color 2s;
 }
-#card_footer_center a{
+#card_footer_left .btn:hover{
+   color:white;
+   background-color:#033266;
+}
+#card_footer_center .btn{
    font-family: 'Montserrat', sans-serif;
    color:#50a3cf;
    border-color:#50a3cf;
    font-size: 20px;
+   transition: background-color 2s, color 2s;
 }
-#card_footer_right a{
+#card_footer_center .btn:hover{
+   color:white;
+   background-color:#50a3cf;
+}
+#card_footer_right .btn{
    font-family: 'Montserrat', sans-serif;
    color:#033266;
    border-color:#033266;
    font-size: 20px;
+   transition: background-color 2s, color 2s;
+}
+#card_footer_right .btn:hover{
+   color:white;
+   background-color:#033266;
 }
 
 /*---------------------------------------
@@ -251,16 +266,28 @@ body #header nav{
 }
 #contact_header h1{
    font-family: 'Montserrat', sans-serif;
+   font-size: 50px;
 }
-#contact_header h5{
+#contact_header p{
    font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
 }
 #contact_content form{
    font-family: 'Montserrat', sans-serif;
 }
-#contact_content .col-8{
-   border-top: 1px solid black;
-   padding-top: 25px;
+#contact_content input{
+   font-size: 20px;
+}
+#contact_content form .btn{
+   font-family: 'Montserrat', sans-serif;
+   color:#50a3cf;
+   border-color:#50a3cf;
+   transition: background-color 2s, color 2s;
+   font-size: 20px;
+}
+#contact_content form .btn:hover{
+   color:white;
+   background-color: #50a3cf;
 }
 
 /*---------------------------------------
