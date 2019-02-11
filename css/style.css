@@ -1,3 +1,17 @@
+html,body{
+   width:100%;
+   height:100%;
+}
+@media screen and (max-width: 415px){
+   html,body{
+      width:100%;
+      height:100%;
+      padding:none;
+      margin:none;
+      overflow-x: hidden;
+   }
+
+}
 /*---------------------------------------
    | Navigation |
 ----------------------------------------*/
@@ -7,12 +21,17 @@
 }
 #header .fixed-top{
    transition: all 0.3s;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 #header nav.navbar a{
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
    letter-spacing: 3px;
    color:white;
+}
+#header nav img{
+   width:130px;
 }
 #header_carousel h3{
    font-family: 'Montserrat', sans-serif;
@@ -40,8 +59,22 @@
    left: 0;
    bottom: 0;
 }
+@media screen and (max-width: 415px){
 
+   body #header #header_navbar{
+      background-color: rgba(0, 0, 0, 0.7);
+   }
+   body #header #header_navbar img{
+      width:80px;
+   }
+   #header_slideshow h3{
+      font-size: 20px;
+   }
+   #header_slideshow p{
+      font-size: 12px;
+   }
 
+}
 
 /*---------------------------------------
    | Services |
@@ -78,6 +111,24 @@
 }
 #services_content i{
    color:#033266;
+}
+@media screen and (max-width: 370px){
+
+   /* #services .col-1{
+      display: none;
+   }
+   #services #services_header h1{
+      font-size: 30px;
+   }
+   #services #services_header p{
+      font-size: 25px;
+   } */
+   /* #services #services_content i{
+      font-size: 30px;
+   }
+   #services #services_content .col-3{
+      display:list-item;
+   } */
 }
 
 /*---------------------------------------
@@ -302,4 +353,12 @@ footer{
 footer p{
    font-family: 'Montserrat', sans-serif;
    font-size: 15px;
+}
+
+@media screen and (max-width: 415px){
+
+   /* footer p{
+      font-size: 10px;
+   } */
+
 }
