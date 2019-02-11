@@ -52,21 +52,32 @@ body #header nav{
 }
 #services_header{
    margin-bottom: 25px;
-   border-bottom: 2px solid black;
 }
 #services_header h1{
    font-family: 'Montserrat', sans-serif;
+   color:#333;
+   font-size: 50px;
 }
 #services_header p{
    font-family: 'Montserrat', sans-serif;
+   color: #000;
+   font-size: 20px;
 }
 #services_content h5{
    font-family: 'Montserrat', sans-serif;
    margin-top: 10px;
+   color: #333;
+   font-weight: bold;
+   font-size: 22px;
 }
 #services_content p{
    font-family: 'Montserrat', sans-serif;
    text-align: justify;
+   color: #000;
+   font-size: 16px;
+}
+#services_content i{
+   color:#033266;
 }
 
 /*---------------------------------------
@@ -84,7 +95,7 @@ body #header nav{
 }
 #portfolio_header h1{
    font-family: 'Montserrat', sans-serif;
-   border-bottom: 2px solid black;
+   font-size: 50px;
 }
 
 /*---------------------------------------
@@ -95,23 +106,137 @@ body #header nav{
    padding-bottom: 80px;
 }
 #pricing_header{
-   border-bottom: 2px solid black;
    margin-bottom: 30px;
 }
 #pricing_header h1{
    font-family: 'Montserrat', sans-serif;
+   font-size: 50px;
 }
-#pricing_content h3{
-   font-family: 'Montserrat', sans-serif;
+#pricing .card{
+   border:none;
 }
-#pricing_content p{
-   font-family: 'Montserrat', sans-serif;
+#card_header_left{
+   background-color:#033266;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
-#pricing_content li{
-   font-family: 'Montserrat', sans-serif;
+#card_header_center{
+   background-color:#50a3cf;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
-#pricing_content a{
+#card_header_right{
+   background-color:#033266;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#card_header_left h3{
    font-family: 'Montserrat', sans-serif;
+   color:white;
+   font-size: 35px;
+}
+#card_header_center h3{
+   font-family: 'Montserrat', sans-serif;
+   color:white;
+   font-size: 35px;
+}
+#card_header_right h3{
+   font-family: 'Montserrat', sans-serif;
+   color:white;
+   font-size: 35px;
+}
+#card_pricing_left{
+   background-color: #eee;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_pricing_center{
+   background-color: #eee;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_pricing_right{
+   background-color: #eee;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_pricing_left p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+}
+#card_pricing_center p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+}
+#card_pricing_right p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+}
+#card_content_left{
+   border-left: 1px solid #eee;
+   border-right: 1px solid #eee;
+}
+#card_content_center{
+   border-left: 1px solid #eee;
+   border-right: 1px solid #eee;
+}
+#card_content_right{
+   border-left: 1px solid #eee;
+   border-right: 1px solid #eee;
+}
+#card_content_left li{
+   font-family: 'Montserrat', sans-serif;
+   border-top: 1px solid #eee;
+   font-size: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_content_center li{
+   font-family: 'Montserrat', sans-serif;
+   border-top: 1px solid #eee;
+   font-size: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_content_right li{
+   font-family: 'Montserrat', sans-serif;
+   border-top: 1px solid #eee;
+   font-size: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+#card_footer_left{
+   background-color:#eee;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+#card_footer_center{
+   background-color:#eee;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+#card_footer_right{
+   background-color:#eee;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+#card_footer_left a{
+   font-family: 'Montserrat', sans-serif;
+   color:#033266;
+   border-color:#033266;
+   font-size: 20px;
+}
+#card_footer_center a{
+   font-family: 'Montserrat', sans-serif;
+   color:#50a3cf;
+   border-color:#50a3cf;
+   font-size: 20px;
+}
+#card_footer_right a{
+   font-family: 'Montserrat', sans-serif;
+   color:#033266;
+   border-color:#033266;
+   font-size: 20px;
 }
 
 /*---------------------------------------
@@ -142,7 +267,7 @@ body #header nav{
    | Footer |
 ----------------------------------------*/
 footer{
-   background-color: #50a3cf;
+   background-color: #033266;
    padding-top: 20px;
    padding-bottom: 5px;
    color:white;
