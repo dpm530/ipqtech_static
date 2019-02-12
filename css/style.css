@@ -8,7 +8,7 @@ html,body{
       height:100%;
       padding:none;
       margin:none;
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
    }
 
 }
@@ -20,9 +20,10 @@ html,body{
    padding-right: 0px;
 }
 #header .fixed-top{
-   transition: all 0.3s;
+   /* transition: all 0.3s; */
    padding-top: 0px;
    padding-bottom: 0px;
+   background-color: rgba(0, 0, 0, 0.5);
 }
 #header nav.navbar a{
    font-family: 'Montserrat', sans-serif;
@@ -62,7 +63,7 @@ html,body{
 @media screen and (max-width: 415px){
 
    body #header #header_navbar{
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(0, 0, 0, 0.5);
    }
    body #header #header_navbar img{
       width:80px;
