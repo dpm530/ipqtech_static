@@ -39,19 +39,22 @@ html,body{
   position: absolute;
   width: 50%;
   top: 15%;
-  left: 16px;
+  left: 20px;
 }
 .header-text h2{
    color:#50A3CF;
    font-size: 30px;
+   padding-bottom: 20px;
 }
 .header-text p{
    font-size: 14px !important;
-   color: rgb(114, 110, 110)
+   color: rgb(114, 110, 110);
+   padding-bottom: 20px;
+
 }
 .header-text .btn{
    font-size: 30px;
-   background: #033266
+   background: #50A3CF
 }
 #header_carousel h3{
    font-family: 'Montserrat', sans-serif;
