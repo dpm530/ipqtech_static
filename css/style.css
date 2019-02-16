@@ -42,7 +42,7 @@ html,body{
   left: 16px;
 }
 .header-text h2{
-   color:#50a3cf;
+   color:#50A3CF;
    font-size: 30px;
 }
 .header-text p{
@@ -50,7 +50,8 @@ html,body{
    color: rgb(114, 110, 110)
 }
 .header-text .btn{
-   font-size: 30px
+   font-size: 30px;
+   background: #033266
 }
 #header_carousel h3{
    font-family: 'Montserrat', sans-serif;
@@ -374,7 +375,7 @@ footer p{
    font-size: 15px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 415px){
 
    .header-text{
       width: 90%;
