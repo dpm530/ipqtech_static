@@ -274,33 +274,38 @@
             <div id="contact_content" class="row">
                <div class="col-md-2"></div>
                <div class="col-12 col-md-8">
-                  <form class="" action="index.html" method="">
+                  <form id="contact-form" method="post">
 
                      <div class="row">
                         <div class="col-6">
                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" placeholder="Your Name">
+                              <input id="name-input" type="text" name="name" class="form-control" placeholder="Full Name">
                            </div>
                         </div>
                         <div class="col-6">
                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" placeholder="Your Email">
+                              <input id="email-input" type="email" name="email" class="form-control" placeholder="Email">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="form-group">
+                              <input id="phone-input" type="phone" name="number" class="form-control" placeholder="Phone Number">
+                           </div>
+                        </div>
+                        <div class="col-6">
+                           <div class="form-group">
+                              <input id="subject-input" type="text" name="subject" class="form-control" placeholder="Subject">
                            </div>
                         </div>
                      </div>
                      <div class="row">
                         <div class="col-12">
                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" placeholder="Subject">
+                              <textarea id="description-input" class="form-control" rows="8" cols="80" placeholder="Talk about your project"></textarea>
                            </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="form-group">
-                              <textarea class="form-control" rows="8" cols="80"></textarea>
-                           </div>
-                           <a href="#" class="btn btn-block">Send</a>
+                           <button type="button" onClick="submitToAPI(event)" class="btn btn-block">Submit</button>
                         </div>
                      </div>
 
