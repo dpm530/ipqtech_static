@@ -18,6 +18,7 @@ html,body{
 #header{
    padding-left: 0px;
    padding-right: 0px;
+   
 }
 #header .fixed-top{
    /* transition: all 0.3s; */
@@ -44,7 +45,8 @@ html,body{
 }
 #header_carousel img{
    width:100%;
-   max-height: 650px;
+   /* max-height: 650px; */
+   height:90vh;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
