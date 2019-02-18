@@ -78,6 +78,17 @@ html,body{
    padding: .5em 0;
    margin: 1em;
 }
+
+#collapsible_navbar ul li .call-us{
+   background-color: #50a3cf;
+   border-radius: 3px;
+   padding: 5px 10px;
+
+}
+
+.fa-phone-volume{
+   transform: rotate(-25deg);
+}
 @media screen and (max-width: 415px){
 
    body #header #header_navbar{
