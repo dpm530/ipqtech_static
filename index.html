@@ -15,12 +15,12 @@
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-      <div id="header" class="container-fluid">
-
-         <nav id="header_navbar" class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <div id="navigation" class="container-fluid">
+         <nav id="header_navbar" class="navbar navbar-expand-sm navbar-dark">
 
             <a href="#" class="navbar-brand">
-               <img src="images/logo.png" alt="">
+               <!-- <img src="images/logo.png" alt=""> -->
+               <h1>IPQ</h1>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible_navbar">
@@ -29,13 +29,13 @@
 
             <div class="collapse navbar-collapse" id="collapsible_navbar">
                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
+                  <li id="nav_border" class="nav-item">
                      <a class="nav-link" href="#services">Services</a>
                   </li>
-                  <li class="nav-item">
+                  <li id="nav_border" class="nav-item">
                      <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
-                  <li class="nav-item">
+                  <li id="nav_border" class="nav-item">
                      <a class="nav-link" href="#pricing">Pricing</a>
                   </li>
                   <li class="nav-item">
@@ -43,18 +43,18 @@
                   </li>
                </ul>
             </div>
-
          </nav>
+      </div>
 
-         <div id="header_carousel">
-               <img src="./images/landingPic.png" alt="Pic"/>
-                  <div class="header-text">
-                     <h2>Web Design Services That Solves Your Business Tecnology Needs</h2>
-                     <p>At IPQ we strive to solve your tecnology needs by providing great customer support throughout the implemantation of your website. We make sure to equip your site with the most up to date technology that will give your business the online presence it desrves</p>
-                     <button class="btn btn-primary">Need A Quote</button>
-               </div>
+      <div id="header" class="container-fluid">
+         <div class="container-fluid">
+            <img src="./images/landingPic.png" alt="Pic"/>
+            <div class="header-text">
+               <h1>Web Design Services That Solve Your Businesses Tecnology Needs</h1>
+               <!-- <p>At IPQ we strive to solve your tecnology needs by providing great customer support throughout the implemantation of . We make sure to equip your site with the most up to date technology that will give your business the online presence it desrves</p> -->
+               <button class="btn">Request A Quote</button>
+            </div>
          </div>
-
       </div>
 
       <div id="services" class="container-fluid">
@@ -105,12 +105,12 @@
             <div class="row">
                <div class="col-6">
                   <div class="card">
-                     <a href=""><img class="card-img-top img-fluid" src="images/header_carousel2.jpeg" alt="Card image"></a>
+                     <a href=""><img class="card-img-top img-fluid" src="images/landingPic.png" alt="Card image"></a>
                   </div>
                </div>
                <div class="col-6">
                   <div class="card">
-                     <a href=""><img class="card-img-top img-fluid" src="images/header_carousel2.jpeg" alt="Card image"></a>
+                     <a href=""><img class="card-img-top img-fluid" src="images/landingPic.png" alt="Card image"></a>
                   </div>
                </div>
             </div>
@@ -118,7 +118,7 @@
             <div class="row">
                <div class="col-6">
                   <div class="card">
-                     <a href=""><img class="card-img-top img-fluid" src="images/header_carousel2.jpeg" alt="Card image"></a>
+                     <a href=""><img class="card-img-top img-fluid" src="images/landingPic.png" alt="Card image"></a>
                   </div>
                </div>
                <div class="col-6"></div>
@@ -281,8 +281,19 @@
          </div>
       </div>
 
-      <footer class="container-fluid text-center">
-         <div class="container">
+      <footer id="footer_top" class="container-fluid text-center">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2"></div>
+               <div class="col-12 col-md-8">
+                  <p>Copyright &copy; All Rights Reserved 2019 | Design & Development by IPQtech, LLC</p>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+         </div>
+      </footer>
+      <footer id="footer_bottom" class="container-fluid text-center">
+         <div class="container-fluid">
             <div class="row">
                <div class="col-md-2"></div>
                <div class="col-12 col-md-8">
