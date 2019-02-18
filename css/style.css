@@ -69,6 +69,15 @@ html,body{
    bottom: 0;
    
 }
+
+#header_carousel button {
+   background: transparent;
+   border: 2px solid white;
+   color: white;
+   width: 10em;
+   padding: .5em 0;
+   margin: 1em;
+}
 @media screen and (max-width: 415px){
 
    body #header #header_navbar{
