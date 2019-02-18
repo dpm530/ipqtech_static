@@ -6,8 +6,8 @@ html,body{
    html,body{
       width:100%;
       height:100%;
-      padding:none;
-      margin:none;
+      /* padding:none;
+      margin:none; */
    }
 }
 
@@ -17,17 +17,7 @@ html,body{
 #navigation{
    padding-left: 0px;
    padding-right: 0px;
-
 }
-#navigation .navbar-toggler{
-   background-color:rgba(0, 0, 0, 0.2);
-}
-/* #navigation .fixed-top{
-   transition: all 0.3s;
-   padding-top: 0px;
-   padding-bottom: 0px;
-   background-color: rgba(0, 0, 0, 0.5);
-} */
 #navigation li{
    padding-right: 10px;
    padding-left: 10px;
@@ -47,6 +37,15 @@ html,body{
 #navigation nav img{
    width:185px;
 }
+#collapsible_navbar ul li .call-us{
+   background-color: #50a3cf;
+   border-radius: 3px;
+   padding: 5px 10px;
+
+}
+.fa-phone-volume{
+   transform: rotate(-25deg);
+}
 
 @media screen and (max-width: 415px){
 
@@ -65,41 +64,15 @@ html,body{
    padding-left: 0px;
    padding-right: 0px;
 }
-/* #header .header-text{
+#header .header-text{
    position: absolute;
-   top: 40%;
+   top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-shadow: 2px 2px 3px #000000;
-} */
-/* .header-text h1{
+}
+#header button{
    font-family: 'Montserrat', sans-serif;
-   font-size: 46px;
-   font-weight: 700;
-   padding-bottom: 15px;
-   color: #fff;
-} */
-
-#header .header-text{
-   margin:  0 10em 20em;
-}
-#header h3{
-   font-family: 'Montserrat', sans-serif;
-   font-size: 55px;
-}
-#header p{
-   font-family: 'Montserrat', sans-serif;
-   font-size: 25px;
-
-}
-#header img{
-   width:100%;
-   height:90vh;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat; */
-}
-#navigation button {
    background: transparent;
    border: 2px solid white;
    color: white;
@@ -107,16 +80,23 @@ html,body{
    padding: .5em 0;
    margin: 1em;
 }
-
-#collapsible_navbar ul li .call-us{
-   background-color: #50a3cf;
-   border-radius: 3px;
-   padding: 5px 10px;
-
+#header h3{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 55px;
+   font-weight: 700;
+   color: #fff;
 }
-
-.fa-phone-volume{
-   transform: rotate(-25deg);
+#header p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   color: #fff;
+}
+#header img{
+   width:100%;
+   height:90vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 @media screen and (max-width: 415px){
 
