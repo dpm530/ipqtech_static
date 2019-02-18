@@ -163,7 +163,7 @@ html,body{
    font-family: 'Montserrat', sans-serif;
    margin-top: 10px;
    color: #333;
-   font-weight: bold;
+   font-weight: 700;
    font-size: 30px;
 }
 #services_content p{
@@ -205,7 +205,7 @@ html,body{
    width:100%;
 }
 #portfolio_header{
-   margin-bottom: 25px;
+   margin-bottom: 30px;
 }
 #portfolio_header h1{
    font-family: 'Montserrat', sans-serif;
@@ -226,22 +226,23 @@ html,body{
 #pricing_header h1{
    font-family: 'Montserrat', sans-serif;
    font-size: 50px;
+   font-weight: 700;
 }
 #pricing .card{
    border:none;
 }
 #card_header_left{
-   background-color:#033266;
+   background-color:#47acdd;
    padding-top: 10px;
    padding-bottom: 10px;
 }
 #card_header_center{
-   background-color:#50a3cf;
+   background-color:#47acdd;
    padding-top: 10px;
    padding-bottom: 10px;
 }
 #card_header_right{
-   background-color:#033266;
+   background-color:#47acdd;
    padding-top: 10px;
    padding-bottom: 10px;
 }
@@ -337,36 +338,38 @@ html,body{
 }
 #card_footer_left .btn{
    font-family: 'Montserrat', sans-serif;
-   color:#033266;
-   border-color:#033266;
+   /* color:#033266;
+   border-color:#033266; */
+   color:#47acdd;
+   border-color:#47acdd;
    font-size: 20px;
    transition: background-color 2s, color 2s;
 }
 #card_footer_left .btn:hover{
    color:white;
-   background-color:#033266;
+   background-color:#47acdd;
 }
 #card_footer_center .btn{
    font-family: 'Montserrat', sans-serif;
-   color:#50a3cf;
-   border-color:#50a3cf;
+   color:#47acdd;
+   border-color:#47acdd;
    font-size: 20px;
    transition: background-color 2s, color 2s;
 }
 #card_footer_center .btn:hover{
    color:white;
-   background-color:#50a3cf;
+   background-color:#47acdd;
 }
 #card_footer_right .btn{
    font-family: 'Montserrat', sans-serif;
-   color:#033266;
-   border-color:#033266;
+   color:#47acdd;
+   border-color:#47acdd;
    font-size: 20px;
    transition: background-color 2s, color 2s;
 }
 #card_footer_right .btn:hover{
    color:white;
-   background-color:#033266;
+   background-color:#47acdd;
 }
 
 /*---------------------------------------
@@ -382,10 +385,11 @@ html,body{
 #contact_header h1{
    font-family: 'Montserrat', sans-serif;
    font-size: 50px;
+   font-weight: 700;
 }
 #contact_header p{
    font-family: 'Montserrat', sans-serif;
-   font-size: 25px;
+   font-size: 22px;
 }
 #contact_content form{
    font-family: 'Montserrat', sans-serif;
@@ -393,16 +397,22 @@ html,body{
 #contact_content input{
    font-size: 20px;
 }
+#contact_content select{
+   font-size: 20px;
+}
+#contact_content textarea{
+   font-size: 20px;
+}
 #contact_content form .btn{
    font-family: 'Montserrat', sans-serif;
-   color:#50a3cf;
-   border-color:#50a3cf;
+   color:#47acdd;
+   border-color:#47acdd;
    transition: background-color 2s, color 2s;
    font-size: 20px;
 }
 #contact_content form .btn:hover{
    color:white;
-   background-color: #50a3cf;
+   background-color: #47acdd;
 }
 
 /*---------------------------------------

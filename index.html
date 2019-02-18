@@ -299,14 +299,52 @@
                         </div>
                         <div class="col-6">
                            <div class="form-group">
-                              <input id="subject-input" type="text" name="subject" class="form-control" placeholder="Subject">
+                              <select id="need-to-input" name="need-to" class="form-control custom-select">
+                                 <option selected>I Need To?</option>
+                                 <option value="Create a new website from scratch">
+                                    Create a new website from scratch
+                                 </option>
+                                 <option value="Update an existing website">
+                                    Update an existing website
+                                 </option>
+                                 <option value="Other">
+                                    Other
+                                 </option>
+                              </select>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12 col-md-12">
+                           <div class="form-group">
+                              <select id="subject-input" name="subject" class="form-control custom-select">
+                                 <option selected>Website For</option>
+                                 <option value="Business">
+                                    Business
+                                 </option>
+                                 <option value="E-commerce">
+                                    E-commerce
+                                 </option>
+                                 <option value="Portfolio">
+                                    Portfolio
+                                 </option>
+                                 <option value="Blogs and Personal">
+                                    Blogs and Personal
+                                 </option>
+                                 <option value="Organization/Institute">
+                                    Organization/Institute
+                                 </option>
+                                 <option value="Other">
+                                    Other
+                                 </option>
+                              </select>
                            </div>
                         </div>
                      </div>
                      <div class="row">
                         <div class="col-12">
                            <div class="form-group">
-                              <textarea id="description-input" class="form-control" rows="8" cols="80" placeholder="Talk about your project"></textarea>
+                              <textarea id="description-input" class="form-control" rows="8" cols="80" placeholder="Tell us about your project"></textarea>
                            </div>
                            <button type="button" onClick="submitToAPI(event)" class="btn btn-block">Submit</button>
                         </div>
