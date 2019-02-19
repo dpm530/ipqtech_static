@@ -1,7 +1,10 @@
 html,body{
-   width:100%;
+   width: 100%;
    height:100%;
 }
+
+
+
 @media screen and (max-width: 415px){
    html,body{
       width:100%;
@@ -109,6 +112,8 @@ html,body{
 #about{
    padding-top: 80px;
    padding-bottom: 80px;
+   padding-right: 0px;
+   padding-left: 0px;
 }
 #about h1{
    font-family: 'Montserrat', sans-serif;
@@ -418,6 +423,10 @@ html,body{
 /*---------------------------------------
    | Footer |
 ----------------------------------------*/
+footer.container-fluid{
+   padding-right: 0px;
+   padding-left: 0px;
+}
 #footer_top{
    background-color: #eee;
    padding-top: 20px;
@@ -437,13 +446,7 @@ footer p{
 
 @media screen and (max-width: 415px){
 
-   .header-text{
-      width: 90%;
-      background: rgba(255, 255, 255, 0.351)
-   }
 
-   /* footer p{
-      font-size: 10px;
-   } */
+
 
 }
