@@ -235,6 +235,7 @@ html,body{
 }
 #pricing .card{
    border:none;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.276);
 }
 #card_header_left{
    background-color:#333;
