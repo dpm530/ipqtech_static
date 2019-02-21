@@ -1,16 +1,3 @@
-//
-// window.onscroll = function() {scrollFunction()};
-//
-// function scrollFunction() {
-//    if (document.body.screen.width > 400) {
-//       if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-//          document.getElementById("header_navbar").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-//       } else {
-//          document.getElementById("header_navbar").style.backgroundColor = "rgba(0, 0, 0, 0)";
-//       }
-//    }
-// }
-
 function submitToAPI(e) {
        e.preventDefault();
        var URL = "";
@@ -41,12 +28,14 @@ function submitToAPI(e) {
        var phone = $("#phone-input").val();
        var email = $("#email-input").val();
        var desc = $("#description-input").val();
+       var need = $("#need-to-input").val();
        var data = {
           name : name,
           phone : phone,
           subject : subject,
           email : email,
-          desc : desc
+          desc : desc,
+          need : need
         };
 
        $.ajax({
