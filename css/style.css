@@ -20,30 +20,39 @@ html,body{
 #navigation{
    padding-left: 0px;
    padding-right: 0px;
+   background-color: rgb(13, 121, 237);
+
 }
 #navigation li{
    padding-right: 10px;
    padding-left: 10px;
+   color: white
 }
 #navigation h1{
    font-family: 'Montserrat', sans-serif;
 }
 #navigation #nav_border{
-   border-right: 1px solid black;
+   border-right: 1px solid rgb(255, 255, 255);
 }
 #navigation nav.navbar a{
    font-family: 'Montserrat', sans-serif;
    font-size: 18px;
    letter-spacing: 3px;
-   color:black;
+   color:white;
 }
 #navigation nav img{
    width:185px;
 }
 #collapsible_navbar ul li .call-us{
    border-radius: 5px;
-   border:1px solid black;
+   border:1px solid white;
+   background-color: rgb(0, 114, 235)
 }
+
+.call-us:hover{
+   background-color: rgb(113, 182, 255)
+}
+
 .fa-phone-volume{
    transform: rotate(-25deg);
 }
@@ -67,14 +76,14 @@ html,body{
 }
 #header .header-text{
    position: absolute;
-   top: 50%;
+   top: 25%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-shadow: 2px 2px 3px #000000;
 }
 #header button{
    font-family: 'Montserrat', sans-serif;
-   background: transparent;
+   background: rgb(13, 121, 237);
    border: 2px solid white;
    color: white;
    width: 10em;
@@ -178,7 +187,7 @@ html,body{
    font-size: 22px;
 }
 #services_content i{
-   color:#333;
+   color:rgb(13, 121, 237);
 }
 @media screen and (max-width: 370px){
 
@@ -238,17 +247,17 @@ html,body{
    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.276);
 }
 #card_header_left{
-   background-color:#333;
+   background-color:rgb(13, 121, 237);
    padding-top: 10px;
    padding-bottom: 10px;
 }
 #card_header_center{
-   background-color:grey;
+   background-color:rgb(11, 91, 176);
    padding-top: 10px;
    padding-bottom: 10px;
 }
 #card_header_right{
-   background-color:#333;
+   background-color:rgb(13, 121, 237);
    padding-top: 10px;
    padding-bottom: 10px;
 }
@@ -419,7 +428,7 @@ html,body{
 }
 #contact_content form .btn:hover{
    color:white;
-   background-color: #333;
+   background-color: rgb(13, 121, 237);
 }
 
 /*---------------------------------------
@@ -511,7 +520,7 @@ footer.container-fluid{
 }
 
 #footer_bottom{
-   background-color: #333;
+   background-color: rgb(13, 121, 237);
    padding-top: 20px;
    padding-bottom: 5px;
    color:#eee;
