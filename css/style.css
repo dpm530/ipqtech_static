@@ -226,7 +226,8 @@ html,body{
    padding-bottom: 80px;
 }
 #pricing_header{
-   margin-bottom: 30px;
+   margin-bottom: 45px;
+   text-align: center;
 }
 #pricing_header h1{
    font-family: 'Montserrat', sans-serif;
@@ -234,53 +235,61 @@ html,body{
    font-weight: 700;
 }
 #pricing .card{
-   border:none;
    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.276);
 }
 #card_header_left{
-   background-color:#333;
+   /* background-color:#333; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_center{
-   background-color:grey;
+   /* background-color:grey; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_right{
-   background-color:#333;
+   /* background-color:#333; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_left h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_header_center h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_header_right h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_pricing_left{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_center{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_right{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_left p{
    font-family: 'Montserrat', sans-serif;
@@ -309,21 +318,21 @@ html,body{
 #card_content_left li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
 #card_content_center li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
 #card_content_right li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
@@ -331,16 +340,19 @@ html,body{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_center{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_right{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_left .btn{
    font-family: 'Montserrat', sans-serif;
