@@ -20,37 +20,35 @@ html,body{
 #navigation{
    padding-left: 0px;
    padding-right: 0px;
-   background-color: rgb(13, 121, 237);
-
 }
 #navigation li{
    padding-right: 10px;
    padding-left: 10px;
-   color: white
+   color: black;
 }
 #navigation h1{
    font-family: 'Montserrat', sans-serif;
+   color: black;
 }
 #navigation #nav_border{
-   border-right: 1px solid rgb(255, 255, 255);
+   border-right: 1px solid black;
 }
 #navigation nav.navbar a{
    font-family: 'Montserrat', sans-serif;
    font-size: 18px;
    letter-spacing: 3px;
-   color:white;
+   color:black;
 }
 #navigation nav img{
    width:185px;
 }
 #collapsible_navbar ul li .call-us{
    border-radius: 5px;
-   border:1px solid white;
-   background-color: rgb(0, 114, 235)
+   border:1px solid black;
 }
 
 .call-us:hover{
-   background-color: rgb(113, 182, 255)
+
 }
 
 .fa-phone-volume{
@@ -76,16 +74,15 @@ html,body{
 }
 #header .header-text{
    position: absolute;
-   top: 25%;
+   top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-shadow: 2px 2px 3px #000000;
 }
 #header button{
    font-family: 'Montserrat', sans-serif;
-   background: rgb(13, 121, 237);
    border: 2px solid white;
-   color: white;
+   color: black;
    width: 10em;
    padding: .5em 0;
    margin: 1em;
@@ -187,7 +184,7 @@ html,body{
    font-size: 22px;
 }
 #services_content i{
-   color:rgb(13, 121, 237);
+   color:#333;
 }
 @media screen and (max-width: 370px){
 
@@ -215,7 +212,7 @@ html,body{
    padding-top: 80px;
    padding-bottom: 80px;
 
-   
+
 }
 #portfolio img{
    width: 100%
@@ -252,7 +249,8 @@ html,body{
    padding-bottom: 80px;
 }
 #pricing_header{
-   margin-bottom: 30px;
+   margin-bottom: 45px;
+   text-align: center;
 }
 #pricing_header h1{
    font-family: 'Montserrat', sans-serif;
@@ -260,53 +258,61 @@ html,body{
    font-weight: 700;
 }
 #pricing .card{
-   border:none;
    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.276);
 }
 #card_header_left{
-   background-color:rgb(13, 121, 237);
+   /* background-color:#333; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_center{
-   background-color:rgb(11, 91, 176);
+   /* background-color:grey; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_right{
-   background-color:rgb(13, 121, 237);
+   /* background-color:#333; */
    padding-top: 10px;
    padding-bottom: 10px;
+   border:1px solid #eee;
 }
 #card_header_left h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_header_center h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_header_right h3{
    font-family: 'Montserrat', sans-serif;
-   color:white;
+   color:black;
    font-size: 35px;
+   text-align: center;
 }
 #card_pricing_left{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_center{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_right{
    background-color: #eee;
    padding-top: 8px;
    padding-bottom: 8px;
+   text-align: center;
 }
 #card_pricing_left p{
    font-family: 'Montserrat', sans-serif;
@@ -335,21 +341,21 @@ html,body{
 #card_content_left li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
 #card_content_center li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
 #card_content_right li{
    font-family: 'Montserrat', sans-serif;
    border-top: 1px solid #eee;
-   font-size: 20px;
+   font-size: 15px;
    padding-top: 8px;
    padding-bottom: 8px;
 }
@@ -357,16 +363,19 @@ html,body{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_center{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_right{
    background-color:#eee;
    padding-top: 15px;
    padding-bottom: 15px;
+   text-align: center;
 }
 #card_footer_left .btn{
    font-family: 'Montserrat', sans-serif;
@@ -445,7 +454,7 @@ html,body{
 }
 #contact_content form .btn:hover{
    color:white;
-   background-color: rgb(13, 121, 237);
+   background-color: #333;
 }
 
 /*---------------------------------------
@@ -537,7 +546,7 @@ footer.container-fluid{
 }
 
 #footer_bottom{
-   background-color: rgb(13, 121, 237);
+   background-color: #333;
    padding-top: 20px;
    padding-bottom: 5px;
    color:#eee;
