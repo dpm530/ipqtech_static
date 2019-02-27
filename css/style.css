@@ -264,6 +264,27 @@ html body #title_underline{
    text-align: justify;
    color:#3b3b3b;
 }
+.card-deck{
+   margin: auto;
+   padding: 0 5%;
+   /* border: blue 3px solid; */
+}
+ .card{
+   /* border: solid 1px #CCC;
+   -moz-box-shadow: 1px 1px 5px #999;
+   -webkit-box-shadow: 1px 1px 5px #999;
+   box-shadow: 1px 1px 1px rgb(94, 94, 94); */
+}
+.card img{
+
+   /* border: solid 1px #CCC;
+   -moz-box-shadow: 1px 8px 14px #999;
+   -webkit-box-shadow: 1px 8px 14px #999;
+   box-shadow: 1px 8px 14px rgb(94, 94, 94); */
+} 
+.card-title{
+   color: rgba(252, 0, 0, 0.79)
+}
 
 /*---------------------------------------
    | Services Section |
@@ -500,6 +521,7 @@ html body #title_underline{
    padding-top: 8px;
    padding-bottom: 8px;
    color:#3b3b3b;
+   list-style: none
 }
 #card_content_center li{
    font-family: 'Montserrat', sans-serif;
@@ -508,6 +530,7 @@ html body #title_underline{
    padding-top: 8px;
    padding-bottom: 8px;
    color:#3b3b3b;
+   list-style: none
 }
 #card_content_right li{
    font-family: 'Montserrat', sans-serif;
@@ -516,6 +539,7 @@ html body #title_underline{
    padding-top: 8px;
    padding-bottom: 8px;
    color:#3b3b3b;
+   list-style: none
 }
 #card_footer_left{
    background-color:white;
