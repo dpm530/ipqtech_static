@@ -7,19 +7,20 @@
       <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
       <script type="text/javascript" src="javascript/main.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
       <title>IPQ</title>
    </head>
-   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+   <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="typeWriter()">
 
          <div id="navigation" class="container-fluid">
             <nav id="header_navbar" class="navbar navbar-expand-sm">
 
                <a href="#" class="navbar-brand">
-                  <h1>IPQtech</h1>
+                  <h1>IPQ</h1>
                </a>
 
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible_navbar">
@@ -60,13 +61,9 @@
                   <!-- <p>At IPQ we strive to solve your tecnology needs by providing great customer support throughout the implemantation of . We make sure to equip your site with the most up to date technology that will give your business the online presence it desrves</p> -->
                   <!-- <button class="btn">Request A Quot</button> -->
                   <h3>What IPQ is about</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum... Maybe mission statement? Our promise to the customer - our pitch</p>
-                  <div>
-                     <!-- <a href="#" class=".btn">Learn More</a>
-                     <a href="#" class=".btn">Start a Project</a>
-                     <a href="" class="btn">Learn More</a>
-                     <a href="" class="btn"> Start a Project </a> -->
-                  </div>
+                  <!-- <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum... Maybe mission statement? Our promise to the customer - our pitch</p> -->
+                  <p id="app"></p>
+
                </div>
             </div>
          </div>
@@ -80,7 +77,9 @@
                <div id="subtitle_section" class="row">
                   <div class="col-md-1"></div>
                   <div class="col-md-10">
-                     <p>We at ipq understand the importance of establishing and maintaining long lasting relationships with our clients. We are devoted and put all of our efforts into creating high quality products that help promote your business growth and establish an online presence.</p>
+                     <p>
+                        IPQ, LLC is a full-service web design, web development, and cloud services agency based in Austin, Texas. We understand the importance of establishing and maintaining long-lasting relationships with our clients, which is why we focus on offering your company a one-stop shop for all your technology needs. Our group of talented developers is devoted to putting all of our efforts into creating high-quality products that help promote your business growth and establish a beautiful user-focused online presence.
+                     </p>
                   </div>
                   <div class="col-md-1"></div>
                </div>
@@ -543,6 +542,25 @@
                </div>
             </div>
          </footer>
+
+         <script type="text/javascript">
+            var app = document.getElementById('app');
+
+            var typewriter = new Typewriter(app, {
+                loop: true
+            });
+
+            typewriter.typeString('Hello World!')
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString('Strings can be removed')
+                .pauseFor(2500)
+                .deleteChars(7)
+                .typeString('<strong>altered!</strong>')
+                .pauseFor(2500)
+                .start();
+
+         </script>
 
    </body>
 </html>

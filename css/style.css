@@ -3,7 +3,7 @@ html,body{
    height:100%;
 }
 html body #title_underline{
-   margin: 0px 50px;
+   margin: 0px 75px;
    border-top: 5px solid #22c669;
    border-radius: 5px;
 }
