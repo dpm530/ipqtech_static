@@ -336,9 +336,9 @@ html body #title_underline{
 /* .individual-container-services{
    border: solid blue 2px
 } */
-.services-image{
+/* .services-image{
    height: 100%;
-}
+} */
 .services-image img{
    /* border: solid blue 2px; */
    overflow: hidden;
@@ -346,7 +346,10 @@ html body #title_underline{
    width:100%;
    height: 100%;
    background: rgba(0, 123, 255, 0.488)
-
+   
+}
+.card .card-text{
+   text-align: left
 }
 @media screen and (max-width: 370px){
 
