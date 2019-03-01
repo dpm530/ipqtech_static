@@ -8,7 +8,6 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
       <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
-      <script type="text/javascript" src="javascript/main.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
@@ -20,7 +19,8 @@
             <nav id="header_navbar" class="navbar navbar-expand-sm">
 
                <a href="#" class="navbar-brand">
-                  <h1>IPQ</h1>
+                  <!-- <img src="./images/ipq-logo-v15.png" width="100" height="80" alt=""> -->
+                  <h1>IPQ tech</h1>
                </a>
 
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible_navbar">
@@ -146,7 +146,62 @@
 
          </div>
 
+
          <div id="services" class="container-fluid">
+               <div class="container text-center">
+                  <div class="row">
+                     <div class="col-md-1"></div>
+                     <div id="services_header" class="col-12 col-md-10">
+                        <h1>
+                           OUR SERVICES
+                           <hr id="title_underline">
+                        </h1>
+                        <p>Talk to us now! It's all about your website design and online branding</p>
+                     </div>
+                     <div class="col-md-1"></div>
+                  </div>
+                  <div id="services_content" class="row">
+                     <div class="row individual-container-services">
+                        <div class="col-md-6 col-sm-12">
+                           <h5>Custom Websites</h5>
+                           <p>Our team of talented design professionals will handcraft a custom experience, just for you.  You will be like no one else.</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 services-image">
+                              <img src="./images/custom-design.png" alt="cart" />
+                        </div>
+                     </div>
+                     <div class="row individual-container-services">
+                        <div class="col-md-6 col-sm-12 services-image">
+                              <img src="./images/e-commerce.png" alt="cart" />
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                           <h5>Atract Customers</h5>
+                           <p>Sell your services online. By taking your services online, you put your business in front of thousands of Internet shoppers every day. We can provide you with everything you need to build an online store.</p>                     </div>
+                     </div>
+                     <div class="row individual-container-services">
+                        <div class="col-md-6 col-sm-12">
+                           <h5>Hosting</h5>
+                           <p>Expert hosting support for our customers. Our customer care team is among the best qualified support squads online, fast, multi-skilled and helpful.</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 services-image">
+                              <img src="./images/hosting.png" alt="cart" />
+                        </div>
+                     </div>
+                     <div class="row individual-container-services">
+                        <div class="col-md-6 col-sm-12 services-image">
+                              <img src="./images/maintenance.png" alt="cart" />
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                           <h5>Website Maintenance</h5>
+                           <p> We provide your company with a custom and comprehensive website maintenance plan that helps your business deliver a fast, secure, and seamless online experience to your customers.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+
+         <!-- <div id="services" class="container-fluid">
             <div class="container text-center">
                <div class="row">
                   <div class="col-md-1"></div>
@@ -198,7 +253,7 @@
                      </div>
                </div>
             </div>
-         </div>
+         </div> -->
 
          <div id="portfolio" class="container-fluid">
 
@@ -268,6 +323,12 @@
                               <li>Free TLS/SSl Certificate (https)</li>
                               <li>Complete ownership of Source Code</li>
                               <li>100% Money Back Guarantee!</li>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <br/>
+
                            </ul>
                         </div>
                      </div>
@@ -299,6 +360,12 @@
                               <li>Free TLS/SSl Certificate (https)</li>
                               <li>Complete ownership of Source Code</li>
                               <li>100% Money Back Guarantee</li>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <br/>
+
                            </ul>
                         </div>
                      </div>
@@ -595,25 +662,7 @@
                </div>
             </div>
          </footer>
-
-         <script type="text/javascript">
-            var app = document.getElementById('app');
-
-            var typewriter = new Typewriter(app, {
-                loop: true
-            });
-
-            typewriter.typeString('Custom Websites')
-               .pauseFor(2500)
-               .deleteAll()
-               .typeString('E-commerce Websites')
-               .pauseFor(2500)
-               .deleteAll()
-               .typeString('Cloud Solutions')
-               .pauseFor(2500)
-               .start();
-
-         </script>
+         <script type="text/javascript" src="javascript/main.js"></script>
 
    </body>
 </html>
