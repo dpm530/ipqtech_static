@@ -30,7 +30,6 @@ html,body{
 }
 #navigation h1{
    font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
    color: black;
 }
 #navigation .call_button a{
@@ -47,8 +46,6 @@ html,body{
 
 #call_button a:hover{
    transform: scale(1.1) perspective(10px)
-=======
->>>>>>> integration
 }
 #navigation #nav_border{
    border-right: 1px solid black;
@@ -84,7 +81,7 @@ html,body{
    }
    #top_left, #top_right, #top_middle{
       padding: 0px;
-   
+
    }
    .resources-list li{
       padding: 0;
@@ -96,7 +93,6 @@ html,body{
 
 @media screen and (max-width: 700px){
 
-<<<<<<< HEAD
    #navigation .navbar-toggler{
       border: 1px solid #3b3b3b;
    }
@@ -107,8 +103,6 @@ html,body{
    .collapse ul{
       background-color: white;
    }
-=======
->>>>>>> integration
 }
 
 /*---------------------------------------
@@ -161,7 +155,6 @@ html,body{
 @media screen and (max-width: 415px){
 
 
-<<<<<<< HEAD
 @media screen and (max-width: 600px) and (max-height: 823px){
    /* #header{
       margin-top: 50%;
@@ -206,8 +199,6 @@ html,body{
       left: 45%;
       transform: translate(-50%, -50%);
    }
-=======
->>>>>>> integration
 
 }
 
@@ -275,7 +266,7 @@ html,body{
    }
    .card-deck p{
       font-size: 16px
-   }  
+   }
    .card i{
       font-size: 35px
    }
@@ -322,7 +313,6 @@ html,body{
    font-size: 22px;
 }
 #services_content i{
-<<<<<<< HEAD
    background-color: #22c669;
    padding: 30px;
    border-radius: 35px;
@@ -342,13 +332,10 @@ html,body{
    width:100%;
    height: 100%;
    background: rgba(0, 123, 255, 0.488)
-   
+
 }
 .card .card-text{
    text-align: left
-=======
-   color:#333;
->>>>>>> integration
 }
 @media screen and (max-width: 700px) and (max-height: 823px){
     #services{
@@ -359,7 +346,7 @@ html,body{
       display: inline-block;
       padding-top: 80px;
       padding-bottom: 80px;
-   } 
+   }
 
    #services_header h1{
       font-size: 40px;
@@ -409,7 +396,6 @@ html,body{
 }
 #portfolio_header h1{
    font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
    font-size: 60px;
    color:black;
    display: inline-block;
@@ -425,10 +411,6 @@ html,body{
 .card img{
    max-width: 100%;
    max-height: 100%;
-=======
-   font-size: 50px;
-   font-weight: 700;
->>>>>>> integration
 }
 .overlay {
    position: absolute;
@@ -452,7 +434,7 @@ html,body{
    top: 50%;
    left: 50%;
    -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%); 
+   -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
    text-align: center;
 }
@@ -461,15 +443,12 @@ html,body{
    color: white;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 700px) and (max-height: 823px){
    #portfolio_header h1{
       font-size: 40px
    }
 }
 
-=======
->>>>>>> integration
 /*---------------------------------------
    | Pricing |
 ----------------------------------------*/

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 function submitToAPI(e){
-=======
-function submitToAPI(e) {
->>>>>>> integration
        e.preventDefault();
        var URL = "";
 
@@ -20,7 +16,6 @@ function submitToAPI(e) {
                 alert ("Please enter your email id");
                 return;
             }
-<<<<<<< HEAD
 
             var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
             if (!reeamil.test($("#email-input").val())) {
@@ -81,8 +76,6 @@ function typeWriter() {
 }
 
 //////////TYPEWRITER EFFECT///////
-=======
->>>>>>> integration
 
             var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
             if (!reeamil.test($("#email-input").val())) {
@@ -105,7 +98,6 @@ function typeWriter() {
           need : need
         };
 
-<<<<<<< HEAD
 typewriter.typeString('Custom Websites')
    .pauseFor(2500)
    .deleteAll()
@@ -151,25 +143,3 @@ typewriter.typeString('Custom Websites')
     $('#navigation a').on('click', function(){
         $('.navbar-toggler').click();
     });
-=======
-       $.ajax({
-         type: "POST",
-         url : "",
-         dataType: "json",
-         crossDomain: "true",
-         contentType: "application/json; charset=utf-8",
-         data: JSON.stringify(data),
-
-
-         success: function () {
-           // clear form and show a success message
-           alert("Successfull");
-           document.getElementById("contact-form").reset();
-       location.reload();
-         },
-         error: function () {
-           // show an error message
-           alert("UnSuccessfull");
-         }});
-     }
->>>>>>> integration
