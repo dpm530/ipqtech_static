@@ -816,6 +816,11 @@ footer.container-fluid{
    padding-bottom: 20px;
    color:#FEFEFE;
 }
+.footer-logo{
+   /* border: solid 2px blue; */
+   padding: 0 5px 10px 1px;
+   margin-bottom: 20px
+}
 #footer_top li{
    list-style: none;
 }
