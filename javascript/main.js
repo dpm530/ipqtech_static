@@ -89,24 +89,38 @@ typewriter.typeString('Custom Websites')
    .pauseFor(2500)
    .start();
 
-    ////////SMOTH SCROLL EFFECT////////
+    ////////SMOOTH SCROLL EFFECT ON LINKS////////
 
     $(document).on('click', 'a[href^="#"]', function(e) {
       // target element id
-      var id = $(this).attr('href');
-      
+      var id = $(this).attr('href'); 
       // target element
       var $id = $(id);
       if ($id.length === 0) {
           return;
       }
-      
       // prevent standard hash navigation (avoid blinking in IE)
-      e.preventDefault();
-      
+      e.preventDefault(); 
       // top position relative to the document
-      var pos = $id.offset().top;
-      
+      var pos = $id.offset().top;   
       // animated top scrolling
       $('body, html').animate({scrollTop: pos});
-    });  
+    }); 
+    
+    ////////STICKY NAVIGATION////////
+    var prev = 0;
+    var $window = $(window);
+    var nav = $('#navigation');
+       
+    $(window).scroll(function () { 
+      var scrollTop = $window.scrollTop();
+      nav.toggleClass('hidden', scrollTop > prev);
+      nav.addClass('fixed-top', scrollTop < prev);
+      prev = scrollTop
+  
+  });
+
+     /////////HIDE MOBILE NAV LINKS ON CLICK///////
+    $('#navigation a').on('click', function(){  
+        $('.navbar-toggler').click();
+    });
