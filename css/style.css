@@ -99,9 +99,27 @@ html body #title_underline{
    color:#22c669;
    font-size: 18px;
 }
-@media screen and (min-device-width: 530px) and (max-device-width:820px){
+
+/*////////////////IPAD ADJUSTMENTS///////////////////*/
+
+@media screen and (min-width: 530px) and (max-width:820px){
    #call_button{
       display: none
+   }
+   footer h3{
+      font-size: 20px !important;
+   }
+   footer ul a li{
+      font-size: 16px
+   }
+   #top_left, #top_right, #top_middle{
+      padding: 0px;
+   
+   }
+   .resources-list li{
+      padding: 0;
+      width: 100%;
+      text-align: center;
    }
 }
 
@@ -862,6 +880,11 @@ footer.container-fluid{
 #top_middle li{
    margin-bottom: 5px;
 }
+.resources-list li{
+   padding: 0;
+   width: 100%;
+   text-align: center;
+}
 #top_right h3{
    font-family: 'Montserrat', sans-serif;
    font-size: 30px;
@@ -900,7 +923,4 @@ footer.container-fluid{
       text-align: center;
       margin-top: 30px;
    }
-
-
-
 }
