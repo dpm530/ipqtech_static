@@ -77,11 +77,26 @@ function typeWriter() {
 
 //////////TYPEWRITER EFFECT///////
 
-var app = document.getElementById('app');
+            var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+            if (!reeamil.test($("#email-input").val())) {
+                alert ("Please enter valid email address");
+                return;
+            }
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+       var name = $("#name-input").val();
+       var subject = $("#subject-input").val();
+       var phone = $("#phone-input").val();
+       var email = $("#email-input").val();
+       var desc = $("#description-input").val();
+       var need = $("#need-to-input").val();
+       var data = {
+          name : name,
+          phone : phone,
+          subject : subject,
+          email : email,
+          desc : desc,
+          need : need
+        };
 
 typewriter.typeString('Custom Websites')
    .pauseFor(2500)

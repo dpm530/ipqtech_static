@@ -15,10 +15,10 @@
       <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
       <title>IPQ</title>
    </head>
-   <body data-spy="scroll" data-target=".navbar" data-offset="50" onload="typeWriter()">
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
          <div id="navigation" class="container-fluid">
-            <nav id="header_navbar" class="navbar navbar-expand-sm">
+            <nav id="header_navbar" class="navbar navbar-expand-sm navbar-dark">
 
                <a href="#" class="navbar-brand">
                   <img src="./images/ipq-logo-v16.png" width="150" height="80" alt="IPQ">
@@ -31,24 +31,23 @@
 
                <div class="collapse navbar-collapse" id="collapsible_navbar">
                   <ul class="navbar-nav ml-auto">
-                     <li id="nav_border" class="nav-item nav_button">
+                     <li id="nav_border" class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                      </li>
-                     <li id="nav_border" class="nav-item nav_button">
+                     <li id="nav_border" class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                      </li>
-                     <li id="nav_border" class="nav-item nav_button">
+                     <li id="nav_border" class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                      </li>
-                     <li id="nav_border" class="nav-item nav_button">
+                     <li id="nav_border" class="nav-item">
                         <a class="nav-link" href="#pricing">Pricing</a>
                      </li>
-                     <li class="nav-item nav_button">
+                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                      </li>
-                     <li id="call_button" class="nav-item">
-                        <a id="hidden" class="nav-link call-us" href="tel: +1-512-813-0589"><i class="fas fa-phone-volume"></i> (512)-813-0589</a>
-                        <a id="visible" class="nav-link call-us" href="tel: +1-512-813-0589"><i class="fas fa-phone"></i> Let's Talk!</a>
+                     <li class="nav-item">
+                        <a class="nav-link call-us" href="tel: +1-512-813-0589"><i class="fas fa-phone-volume"></i> (512)-813-0589</a>
                      </li>
                   </ul>
                </div>
@@ -71,10 +70,7 @@
          </div>
 
          <div id="about" class="contaianer-fluid text-center">
-            <h1>
-               ABOUT US
-               <hr id="title_underline">
-            </h1>
+            <h1>ABOUT US</h1>
             <div class="container">
                <div id="subtitle_section" class="row">
                   <div class="col-md-1"></div>
@@ -131,7 +127,7 @@
                </div>
             </div>
 
-            <!-- <div class="container">
+            <div class="container">
                <div id="company_values_section" class="row">
                   <div class="col-md-1"></div>
                   <div class="col-md-5">
@@ -144,8 +140,7 @@
                   </div>
                   <div class="col-md-1"></div>
                </div>
-            </div> -->
-
+            </div>
          </div>
 
          <div class="mobile-services" class="container-fluid">
@@ -207,10 +202,7 @@
                <div class="row">
                   <div class="col-md-1"></div>
                   <div id="services_header" class="col-12 col-md-10">
-                     <h1>
-                        OUR SERVICES
-                        <hr id="title_underline">
-                     </h1>
+                     <h1>OUR SERVICES</h1>
                      <p>Talk to us now! It's all about your website design and online branding</p>
                   </div>
                   <div class="col-md-1"></div>
@@ -255,14 +247,13 @@
             </div>
          </div>
 
+         <hr>
+
          <div id="portfolio" class="container-fluid">
 
             <div class="container">
                <div id="portfolio_header" class="conatainer text-center">
-                  <h1>
-                     OUR WORK
-                     <hr id="title_underline">
-                  </h1>
+                  <h1>OUR WORK</h1>
                </div>
                <div class="row">
                   <div class="col-6">
@@ -300,9 +291,12 @@
                         </div>
                      </div>
                   </div>
+                  <div class="col-6"></div>
                </div>
             </div>
          </div>
+
+         <hr>
 
          <div id="pricing" class="container-fluid">
 
@@ -319,10 +313,10 @@
                         <div class="col-md-12">
                            <h3>Basic</h3>
                         </div>
-                     </div>
-                     <div id="card_pricing_left" class="row">
-                        <div class="col-md-12">
-                           <p class="card-text">Start Price: &#36;350</p>
+                        <div id="card_pricing_left" class="row">
+                           <div class="col-12">
+                              <p class="card-text">&#36; 350</p>
+                           </div>
                         </div>
                      </div>
                      <div id="card_content_left" class="row">
@@ -359,10 +353,10 @@
                         <div class="col-md-12">
                            <h3>Professional</h3>
                         </div>
-                     </div>
-                     <div id="card_pricing_center" class="row">
-                        <div class="col-md-12">
-                           <p class="card-text">Start Price: &#36;550</p>
+                        <div id="card_pricing_center" class="row">
+                           <div class="col-12">
+                              <p class="card-text">&#36; 550</p>
+                           </div>
                         </div>
                      </div>
                      <div id="card_content_center" class="row">
@@ -434,13 +428,12 @@
             </div>
          </div>
 
+         <hr>
+
          <div id="contact" class="container-fluid">
             <div class="container">
                <div id="contact_header" class="container text-center">
-                  <h1>
-                     HOW CAN WE HELP?
-                     <hr id="title_underline">
-                  </h1>
+                  <h1>HOW CAN WE HELP?</h1>
                   <p>We're excited to start your project!</p>
                </div>
                <br>
@@ -527,6 +520,7 @@
             </div>
          </div>
 
+
          <footer class="container-fluid">
             <div id="footer_top" class="container-fluid">
                <div class="row">
@@ -572,11 +566,11 @@
             </div>
             <div id="footer_bottom" class="container-fluid">
                <div class="row">
-                  <div class="col-md-1 col-xl-1"></div>
-                  <div class="col-12 col-md-10 col-xl-10 text-center">
+                  <div class="col-md-2 col-xl-2"></div>
+                  <div class="col-12 col-md-8 col-xl-8 text-center">
                      <p>Copyright &copy; All Rights Reserved 2019 | Design & Development by IPQ, LLC</p>
                   </div>
-                  <div class="col-md-1col-xl-1"></div>
+                  <div class="col-md-2 col-xl-2"></div>
                </div>
             </div>
          </footer>
