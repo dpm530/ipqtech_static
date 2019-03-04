@@ -143,3 +143,7 @@ typewriter.typeString('Custom Websites')
     $('#navigation a').on('click', function(){
         $('.navbar-toggler').click();
     });
+
+    ////////IMAGE LAZYLOADING TO IMPROVE SITE PERFORMANCE//////
+      lazyload();
+  
